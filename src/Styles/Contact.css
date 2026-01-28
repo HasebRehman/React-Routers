@@ -1,0 +1,105 @@
+.contactBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contactText {
+    background-color: lightgray;
+    padding: 0px 40px 30px 40px;
+    border-radius: 10px;
+}
+
+.contactText1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.contactText2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.contactPhoneIcons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contactEmail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#loc {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.locText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#call {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+#mail {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.contactField {
+    width: 280px;
+    height: 34px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.contactBtn {
+    background-color: #d94e3b;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+    border-radius: 10px;
+    outline: none;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.contactBtn:hover {
+    background-color: orangered;
+    outline: none;
+}

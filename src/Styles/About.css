@@ -1,0 +1,33 @@
+.aboutBox {
+    display: flex;
+    align-items: center;
+    padding: 105px 0px 65px;
+    margin-top: -35px;
+}
+
+.aboutImgBox {
+    margin-left: 5%;
+}
+
+.aboutImg {
+    width: 550px;
+    height: 450px;
+    background-size: cover;
+}
+
+.aboutText {
+    width: 40%;
+    margin-left: 85px;
+}
+
+.aboutHeadingText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.aboutPara {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+}

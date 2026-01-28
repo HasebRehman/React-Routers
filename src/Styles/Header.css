@@ -1,0 +1,95 @@
+.HeaderBox {
+    padding: 15px 0px 10px;
+    display: flex;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.img {
+    width: 250px;
+    outline: none;
+}
+
+.navBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.homeActiveClass {
+    color: #d94e3b;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 35px;
+    outline: none;
+}
+
+.homeNotActiveClass {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 35px;
+    outline: none;
+}
+
+.homeNotActiveClass:hover {
+    color: #d94e3b;
+    outline: none;
+}
+
+.btns {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: #d94e3b;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+    margin-left: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn2:hover {
+    background-color: orangered;
+    outline: none;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+    margin-left: 15px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.btn1:hover {
+    background-color: lightgray;
+    outline: none;
+}
