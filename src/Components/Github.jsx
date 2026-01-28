@@ -1,9 +1,10 @@
 import React from 'react'
 import GithubApiHook from '../Hooks/GithubApiHook'
 import '../Styles/Github.css'
+import { useLoaderData } from 'react-router-dom'
 
 const Github = () => {
-    const gitData = GithubApiHook();
+    const gitData = useLoaderData();
     console.log(gitData);
     
   return (
