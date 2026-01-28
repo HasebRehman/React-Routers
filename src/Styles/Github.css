@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.githubBox { 
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.githubImgBox {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    width: 50%;
+}
+
+.githubImg {
+    border-radius: 300px;
+    height: 80%;
+}
+
+.githubTextBox {
+    padding: 0px 45px 0px 45px;
+}
+
+.githubDataName {   
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.githubBio {
+    margin-top: -25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.githubBioData {
+    font-size: 1rem;
+    font-weight: 400;
+}
