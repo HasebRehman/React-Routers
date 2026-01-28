@@ -7,6 +7,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Github from './Components/Github';
+import UserId from './Components/UserId';
+import { github } from './Hooks/GithubApiHook';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/github",
-        element: <Github />
+        element: <Github />,
+        loader: github
+      },
+      {
+        path: "user/:userid",
+        element: <UserId />
       }
     ]
   }
